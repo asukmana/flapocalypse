@@ -5,3 +5,4 @@ player_height = sprite_get_width(sp_plane) * 0.5;
 
 motion_set(270, 2.5);
 image_angle = 0;
+audio_play_sound(sn_plane_descent, 0, true);

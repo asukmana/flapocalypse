@@ -3,12 +3,16 @@ if keyboard_check(vk_up)
 {
 	motion_set(90, player_speed);
 	image_angle = 30;
+	audio_play_sound(sn_plane_climb, 0, true);
+	audio_stop_sound(sn_plane_descent);
 	//image_speed = 1;
 }
 else if keyboard_check_released(vk_up)
 {
     motion_set(270, 2.5);
 	image_angle = 0;
+	audio_stop_sound(sn_plane_climb);
+	audio_play_sound(sn_plane_descent, 0, true);
 	//image_speed = 0;
 }
 

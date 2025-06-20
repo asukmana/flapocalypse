@@ -36,13 +36,15 @@
   "name":"Flapocalypse",
   "resources":[
     {"id":{"name":"ob_plane","path":"objects/ob_plane/ob_plane.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ro_main","path":"rooms/ro_main/ro_main.yy",},},
+    {"id":{"name":"sn_plane_climb","path":"sounds/sn_plane_climb/sn_plane_climb.yy",},},
+    {"id":{"name":"sn_plane_descent","path":"sounds/sn_plane_descent/sn_plane_descent.yy",},},
     {"id":{"name":"sp_plane","path":"sprites/sp_plane/sp_plane.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"ro_main","path":"rooms/ro_main/ro_main.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
